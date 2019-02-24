@@ -10,6 +10,8 @@ namespace CreditCardApplication
 
         public ValidationMode ValidationMode { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
+        public event EventHandler ValidatorLookupPerformed;
+
         //public string LicenceKey => throw new NotImplementedException();
 
         public bool IsValid(string frequentFlyerNumber)

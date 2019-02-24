@@ -30,5 +30,7 @@ namespace CreditCardApplication
         IServiceInformation ServiceInformation { get; } //nested interfaces
 
         ValidationMode ValidationMode { get; set; }
+
+        event EventHandler ValidatorLookupPerformed;
     }
 }

@@ -9,6 +9,7 @@ namespace CreditCardApplication
         Unknown,
         AutoAccepted,
         AutoDeclined,
-        ReferredToHuman
+        ReferredToHuman,
+        ReferredToHumanFraudRisk
     }
 }
